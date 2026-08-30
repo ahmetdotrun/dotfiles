@@ -1,0 +1,40 @@
+# Global gitignore for every repo
+
+**/.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Secrets / env
+.env
+.env.local
+*.pem
+*.key
+
+# Logs / temp
+*.log
+*.tmp

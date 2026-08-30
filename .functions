@@ -1,0 +1,22 @@
+#
+# ~/.functions
+#
+
+# Aliases
+
+# eza: one item per line by default
+alias ls='eza -1 --group-directories-first'
+alias l='eza -lat --group-directories-first'
+alias ll='eza -lah --git --group-directories-first'
+alias lt='eza --tree --group-directories-first'
+
+alias grep='grep --color=auto'
+alias cls='clear && ls'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+# htx: H1_USERNAME comes from ~/.env.local (untracked)
+alias htx='httpx -title -H "X-Hackerone: $H1_USERNAME" -status-code -ip -location -content-length -td'
